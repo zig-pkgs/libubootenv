@@ -1,0 +1,18 @@
+.{
+    .name = .libubootenv,
+    .version = "0.3.8",
+    .dependencies = .{
+        .upstream = .{
+            .url = "git+https://github.com/sbabic/libubootenv.git#90ed621b679406dc297a74ea68e702dda2f43044",
+            .hash = "N-V-__8AAO0mBACsIInRUtsDZqWnaHKxGOQ6eyMaKfJm0-TL",
+        },
+    },
+    .minimum_zig_version = "0.17.1",
+    .paths = .{
+        "src",
+        "include",
+        "build.zig",
+        "build.zig.zon",
+    },
+    .fingerprint = 0x9c2e00803dbaf6f6,
+}
